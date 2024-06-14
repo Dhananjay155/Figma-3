@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&family=Jacquard+12&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap');
+body{
+    font-family: "Space Grotesk", sans-serif;
+   
+
+    flex-wrap: wrap;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container1{
+    width: 1280px;
+    height: 1788.5px;
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.navbox{
+    display: flex;
+   
+    width: 1280px;
+    height: 65px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21.25px 21.25px 40px 40px;
+   
+    flex-wrap: wrap;
+    
+    
+}
+.navbox1>img{
+    width: 16px;
+    height: 16px;
+}
+.navbox1>span{
+   
+font-size: 18px;
+font-weight: 700;
+line-height: 22.5px;
+letter-spacing: -0.27000001072883606px;
+}
+.navbox2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.navbox2>ul{
+    display: flex;
+    gap: 36px;
+    flex-wrap: wrap;
+}
+.navbox2>ul>li{
+    list-style: none;
+  
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+
+color: rgba(13, 13, 28, 1);
+
+}
+.navbox3{
+    margin-left: 32px;
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(232,232,242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    height: 1683.5px;
+    
+    position: relative;
+}
+.container3{
+    width: 960px;
+height: 412px;
+padding: 40px 16px 40px 16px;
+gap: 32px;
+display: flex;
+
+
+}
+.l1{
+    width: 431.95px;
+    height: 332px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/1309/5080/36ef9486e76af235988aeb0d65e8486f?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OgFgNcz5jqfJHvsPEtLs2N2v1quMujU8T5RVJ8n4bfTAsKLzIdv97lx0quxW-Xv~8OHn9Wrtbk02ZJfiZ02iXYklp1rR7EIQcqc-Znfrf6TXVxs0r6NkA5w~4ikuf7u4LvBZlpWqZlbOnaf3QhkyGXwV2PD~S0iyQsywuRGGQqTW8DOI~P9Nhabm~pIJsIH6H7JNwXDM14Zy-roHlgmrDntAKJdQY8BtPTkhcTzxZR5c9NKet897tDl7KaLEqcJ7kXWy0~xinGYGRTG1uTLdeSwPoyix9JaNM7lPlUgCf4IX~HEAeM3rTJIIExQsxL7sExKd91tBO9ybOov8l-y4UA__);
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px
+    ;
+}
+.l2{
+    width: 464.05px;
+    height: 332px;
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+}
+.head{
+    width: 464.05px;
+    height: 236px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  
+}
+.head>h1{
+   
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: -1.5839999914169312px;
+text-align: left;
+color: rgba(13, 13, 28, 1);
+}
+.head>p{
+   
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+.email{
+    width: 464.05px;
+    height: 64px;
+    display: flex;
+    padding: 0px,8px,0px,16px;
+    color: rgba(232, 232, 242, 1);
+    background-color:rgb(232,232,242);
+    border-radius: 8px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+.email>i{
+    width: 20px;
+    height: 20px;
+    color: rgba(79, 79, 150, 1);
+    position: absolute;
+    top:23px;
+    left:20px;
+    
+}
+.email>button{
+    width: 137.98px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: rgba(26, 26, 229, 1);
+    color: rgba(247, 247, 252, 1);
+    position: absolute;
+    top:7px;
+    left:310px;
+}
+.email>input{
+    width: 302.06px;
+    height: 24px;
+    display: flex;
+    gap: 32px;
+    color: rgba(79, 79, 150, 1);
+    background-color:rgb(232,232,242);
+   border: 0px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+position: absolute;
+top:20px;
+left:52px;
+}
+#ft>h3,#about>h3,#process>h3,#touch>h3{
+    margin-top:20px ;
+    margin-left: 16px;
+    
+font-size: 22px;
+font-weight: 700;
+line-height: 27.5px;
+letter-spacing: -0.33000001311302185px;
+text-align: left;
+color: rgba(13, 13, 28, 1);
+
+} 
+.cards1{
+    width: 960px;
+height: 201.5px;
+padding: 16px 15.66px 16px 16px;
+gap: 12px;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+.cards1>div:nth-of-type(1){
+    background-image: url(https://s3-alpha-sig.figma.com/img/ea11/62cb/726c88a90c2ab9dd56fdd36d0d3344a5?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fRT~RkLms72KlHgXDnI2x5g7ZJwSo79S1he9MuLR54iRcNNLG3av4L7ngy1fUfNZQDbBuJCSIUTZgkhrimN7g7SDaeuqhzc2wNqHibg5yZgxqyxnj~CEf1lt1SfL7Fpg5VOOSa~xTx3hsLK7k-sBILI8tamXqpID4t~j3EwTmqkdgY1VCgVRlM9XlSaL47O1oG-Bppu1nyZX3fqyaz0sD9CkaAG31sFlQet5zGNi7i6gtR-sIixzFoQ~rTTKyQOMYUHpPfMkyNoLqC7NEDo3akAI1H3FeDeLR~fHZwW61Kwjt9zsGX8lcg4Gj9Qy9FSTBIiAm8XYt3xTVYT657a9Fg__);
+    background-position: center ;
+    background-size: cover;
+    width: 301.33px;
+height: 169.48px;
+border-radius: 8px;
+}
+.cards1>div:nth-of-type(2){
+    background-image: url(https://s3-alpha-sig.figma.com/img/c21a/47cc/2b1d0ea5065eb18086f3f0493449aa5b?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SH3LdgIJfvPvy~8yziiesy4mBKI-1x30tC-w~kPvhOKFF-y99-oUp1jAfPo5rJCzj3~FyNPKm~ypuSRH82TIESozC91qQmNp9Ho3k07F6RBYR-mhvnDeUueXVk~vyxysCwl-o1N9aFXnqUNwOnk1byd0nYwr-aX8c--jTQhPr5wfzR9PrsiWCSDo1-ZOrSX9XBgWsUAlqZy7As5wu9kGp8OMXB-dV~QS0DTOFB0xuWYKzhC5bTSsd0QJDfKDVewRoaBpJu9a~uraGQ5JyEWbr2LEdz0R44Axz-1CWXgi1kyPEgu31TW0mkOS4LBDlIzE5Wff~8cVBBkCL95VSPzaYQ__);
+    background-position: center ;
+    background-size: cover;
+    width: 301.33px;
+height: 169.48px;
+border-radius: 8px;
+}
+.cards1>div:nth-of-type(3){
+    background-image: url(https://s3-alpha-sig.figma.com/img/52ce/d544/87a5e7e654abaa75edbf61f93a5855a1?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TptLp4TXuift1W316qIZc99gQV2zTpfp4bK~jIA9WuJho5KNX4F57LHgFNJhu9ISx400Tt38BYp7-ZbM-KxmBNCv7F1zpIHN1LYLiVFYNQfRFlVMS3L1PMTUIe9-b-5C~VCNVCWiUOVke1tTocP7iLad~J-bfFubOUmF7xtT~TOW~DjXH9SohlKeeLoQActI2sCgnZvO9c7L-0xXKm2DbKkxl6DTPQ~Nd7xAJA-r3MVspONb2uf4v6hrTH-OXCWtoSMow~dSZ5ofVkT5THg-Fs0DghiQK4RtFNy5HaBCbD-mbJIAu82Ax5PG1VSPeQTEJ0j4OiCXVUxbJgw2Uz2Mpw__);
+    background-position: ;
+    background-size: cover;
+    width: 301.33px;
+height: 169.48px;
+border-radius: 8px;
+}
+#about>div{
+    width:960px;
+height: 184px;
+padding: 4px 16px 12px 16px;
+
+
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: rgba(13, 13, 28, 1);
+}
+.cards2{
+    width: 960px;
+    height: 256px;
+    padding: 16px 16px 16px 16px;
+    gap: 12px;
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+}
+.cards2>div{
+    width: 176px;
+height: 224px;
+top: 16px;
+left: 16px;
+gap: 12px;
+opacity: 0px;
+display: flex;
+flex-direction: column;
+}
+.cards2>div>img{
+    width: 176px;
+height: 176px;
+border-radius: 8px;
+
+}
+#touch{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+#touch>input:nth-of-type(1){
+    width:480px;
+height: 56px;
+margin-left: 16px;
+border-radius: 8px;
+padding: 16px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+border: none;
+color: rgba(79, 79, 150, 1);
+background-color:rgb(232,232,242);
+
+
+
+}
+#touch>input:nth-of-type(2){
+    width:480px;
+    height: 56px;
+    margin-left: 16px;
+    border-radius: 8px;
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: rgba(79, 79, 150, 1);
+border: none;
+background-color:rgb(232,232,242);
+padding: 16px;
+}
+#touch>input:nth-of-type(3){
+    width:480px;
+    height: 144px;
+    margin-left: 16px;
+    border-radius: 8px;
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: rgba(79, 79, 150, 1);
+border: none;
+background-color:rgb(232,232,242);
+padding: 16px;
+box-sizing: border-box;
+}
+.container2>button{
+    width: 84px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgba(26, 26, 229, 1);
+    color: rgba(247, 247, 252, 1);
+    position: absolute;
+    right: 16px;
+    bottom: 12px;
+}
